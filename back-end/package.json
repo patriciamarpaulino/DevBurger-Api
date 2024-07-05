@@ -1,0 +1,17 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Raphael Tavares",
+    "url": "https://github.com/phaelstavares"
+  },
+  "license": "ISC",
+  "description": "back-end",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
