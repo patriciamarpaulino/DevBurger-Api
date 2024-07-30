@@ -1,17 +1,19 @@
 import express from "express"
 import routes from "./routes"
 import "./database"
+import { resolve } from "node:path"
 
 class App {
     constructor() {
-        this.app = express()
+        this.app = express();
 
         this.middewares();
         this.routes();
     }
 
     middewares() {
-        this.app.use(express.json())
+        this.app.use(express.json());
+        this.app.use("/product-file", express.static(resolve(__dirname, "..", "uploads")));
     }
 
     routes() {
