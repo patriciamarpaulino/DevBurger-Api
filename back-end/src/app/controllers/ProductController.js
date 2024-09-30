@@ -68,7 +68,7 @@ class ProductController {
 
         let path;
         if (request.file) {
-            path = request.file.filename
+            path = request.file.filename;
         }
 
         const { name, price, category_id, offer } = request.body
