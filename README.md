@@ -1,5 +1,5 @@
-# Sistema de Hamburgueria - Back-end
-O sistema de hamburgueria é uma aplicação back-end projetada para otimizar processos operacionais, como controle de produtos, pedidos e usuários. Ele utiliza tecnologias modernas para garantir segurança, desempenho e escalabilidade. Ele é desenvolvido com Node.js e conta com bancos de dados SQL (via ORM Sequelize) e NoSQL MongoDB, permitindo flexibilidade no armazenamento e gerenciamento de dados.
+# Sistema de Hamburgueria - Full Stack
+O sistema de hamburgueria é uma aplicação full stack projetada para otimizar processos operacionais, como controle de produtos, pedidos e usuários. Ele utiliza tecnologias modernas para garantir segurança, desempenho e escalabilidade. Ele é desenvolvido com Node.js e conta com bancos de dados SQL (via ORM Sequelize) e NoSQL MongoDB, permitindo flexibilidade no armazenamento e gerenciamento de dados.
 
 Entre os recursos, destacam-se a autenticação de usuários com jsonwebtoken e bcrypt para segurança, diferenciação de permissões para administradores e clientes, e o gerenciamento de estoque, categorias e pedidos. A estruturação do sistema utiliza Express.js para rotas e lógica de negócios, além de ferramentas como uuid para geração de identificadores únicos, multer para gerenciamento de arquivos, e yup para validação de dados.
 
